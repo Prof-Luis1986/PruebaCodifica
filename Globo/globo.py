@@ -9,7 +9,7 @@ pygame.mixer.init()
 # Configuración de la pantalla
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Tapballon")
+pygame.display.set_caption("Tapballon 1.1")
 
 # Cargar imágenes del globo
 globo1 = pygame.image.load("globo1.png").convert_alpha()
